@@ -563,6 +563,18 @@ Contact
 		padding-left: 2rem;
 	}
 }
+.contact-detail {
+	padding-top: 10rem;
+}
+.contact-info {
+	text-align: center;
+}
+.contact-center {
+	justify-content: center;
+}
+.contact-logo {
+	padding: 5rem 0;
+}
 /*
 =============== 
 Gallery
@@ -659,4 +671,45 @@ Footer
 	text-transform: capitalize;
 	letter-spacing: var(--spacing);
 	color: var(--clr-white);
+}
+/*
+=============== 
+Tour detail
+===============
+*/
+.tour-detail {
+	padding-top: 10rem;
+}
+.tour-detail .section-title {
+	margin-bottom: 0;
+}
+.tour-gallery-img-container {
+	position: relative;
+	padding: 1rem 1rem;
+	flex: 0 0 100%;
+}
+.tour-gallery-img {
+	height: 20rem;
+	border-radius: 10px;
+	object-fit: cover;
+}
+.tour-gallery {
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+.tour-list {
+	list-style-type: square;
+	padding-left: 1rem;
+}
+.tour-list li {
+	text-align: left;
+	color: var(--clr-grey-5);
+}
+@media screen and (min-width: 992px) {
+	.tour-gallery-img-container {
+		flex: 0 0 33%;
+		padding: 1rem 0.5rem;
+	}
 }
